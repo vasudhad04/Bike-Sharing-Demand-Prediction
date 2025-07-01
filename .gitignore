@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs and outputs
+*.log
+
+# Model files
+*.pkl
+*.joblib
+
+# Streamlit
+.streamlit/
+
+# Dependency management
+pip-log.txt
+requirements.txt~
+
+# Ignore dataset if it's large
+BoomBikes.csv
+
+# Test/backup files
+*.bak
+*.tmp
